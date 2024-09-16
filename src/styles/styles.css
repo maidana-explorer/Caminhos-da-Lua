@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('header.css');
+@import url('home.css');
+@import url('menu.css');
+@import url('testimonials.css');
+@import url('footer.css');
+* { 
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffcfc;
+}
+
+section {
+    padding: 28px 8%;
+}
+
+.btn-default {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9fafb;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.btn-default:hover {
+    background-color: rgba(182, 35, 226, 0.822);
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0px; 
+    color:blue;
+}
+
+.shape {
+    background-color: black;
+}
+
+.section-title{
+    color: blueviolet;
+    }
+
+section-subtitle{
+    color:blueviolet;
+
+
+}
